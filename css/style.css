@@ -1,0 +1,471 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html,
+body {
+  background-color: #fafafa;
+  font-family: "Pathway Gothic One", sans-serif; 
+}
+
+main{
+   max-width: 1000px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+#header {
+  position:fixed;
+  width: 100vw;
+  background-color: #fafafa;
+  display: flex;
+  height: 88px;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+}
+
+#header-img-div {
+  background-color:;
+  width: 33vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+#header-img {
+  height: 100px;
+  padding-top: 10px;
+}
+
+header #nav-bar {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;  
+}
+
+nav ul {
+  list-style-type: none;
+  background-color:;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5vw;
+  width: 33vw;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+nav li a:hover {
+  color: #0053ba;
+}
+
+/*-----------------------PROGRAM INFO REQUEST ------------------*/
+#info-request {
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: #fafafa;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#info-request h2 {
+  font-size: 40px;
+  flex-wrap: wrap;
+  background-color: ;
+  margin-bottom: 0px;
+}
+
+#info-request p {
+  font-size: 20px;
+  flex-wrap: wrap;
+  background-color: ;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#submit {
+  background-color: darkorange;
+  border-radius: 5px;
+  color: #fafafa;
+  font-size: 1em;
+  height: 40px;
+  width: 150px;
+  margin: 10px;
+  border: 0px solid;
+  font-weight: bold;
+}
+
+/*-----------------------PROGRAM HIGHLIGHTS ------------------*/
+#highlights-div {
+  background-color: #0053ba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%
+}
+
+.highlights-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight-icon {
+  width: 30%;
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlights-icon-img {
+  width: 200px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.highlight-desc {
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 80%;
+  margin-right: 10px;
+}
+
+.highlight-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fafafa;
+}
+
+.highlight-text h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.highlight-text p {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+/*---------------SOCIAL IMPACT VIDEO REEL-----------------*/
+.section-tab{
+  margin-top: 100px;
+  margin-bottom: -15px;
+  background-color: ;
+  text-align: center;
+  font-size: 30px;
+}
+
+#video{
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+#demo {
+  background-color: ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#demo-img{
+  height: 600px;
+}
+
+/*---------------WHO MAKES UP THE TECHJUNTOS COMMUNITY-----------------*/
+
+#members {
+  background-color: ;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.each-member{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.member-desc{
+  padding: 20px;
+}
+
+.member-desc h4 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.member-desc p {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.member-img{
+  border-style: none;
+  border-width: 5px;
+  padding: 0px;
+  margin: 20px;
+}
+
+#students-png{
+  max-width: 400px;
+}
+
+#industry-png{  
+  max-width: 400px;
+}
+
+#academia-png{  
+  max-width: 400px;
+}
+
+/*----------------------- WHAT WE OFFER OUR MEMBERS ------------------*/
+
+#offer-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.offer-box{
+  border-width: 2px;
+  border-color: black;
+  border-style:solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  margin: 10px;
+  width: 300px;
+  
+}
+
+.offer-box-header{
+  background-color: #0053ba;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  color: #fafafa;
+}
+
+.offer-box-header h5{
+  margin-top: 0px;
+  padding-top:15px;
+  margin-bottom: 15px;
+}
+
+.offer-box-body{
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 25px;
+}
+
+.offer-box-body p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/*------------------- SECTION: CONTACT US TEXT ----------------*/
+.contact-us {
+  min-height: 100vh;
+  padding-top: 0px;
+  text-align: center;
+  background: ;
+}
+.goodbye-text {
+  color: black;
+}
+
+.contact-us h6 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.contact-us p {
+  font-size: 25px;
+}
+
+.contact-us p a {
+  color: black;
+}
+/*-----------------------------CONTACT FORM -----------------------*/
+
+.survey-content {
+  background-color: #0053ba;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 1200px;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "Raleway", Helvetica, sans-serif;
+  color: #fafafa;
+  min-width: 300px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightColumnLayout {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.age-group,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit-2 {
+  background-color: darkorange;
+  border-radius: 4px;
+  color: #fafafa;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio,
+.checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+/*----------------------- FOOTER ------------------*/
+footer{
+  background-color: #0053ba;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20\px;
+  color: #fafafa;
+}
+
+/*----------------------- MEDIA QUERIES ------------------*/
+@media(max-width: 1000px){
+  .each-member{ flex-direction: column;}
+  #industry-member-flexbox{flex-direction: column-reverse;}
+  #demo-img{display: none}
+}
+
+
+@media (max-width: 560px) {
+  .highlights-row {flex-direction: column;}
+  .member-img{width: 100%}
+  .member-img{height: 100%}
+  footer{font-size: 15px;}
+  #header-img-div{width: 100vw;justify-content: center;}
+  
+  #header{    
+    background-color: ;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    left: 0;
+    right: 0;
+  } 
+  
+  #header-img{
+    height: 60px;
+    background-color:;
+  }
+  
+  header #nav-bar{
+    width: 100vw;
+    background-color: ;
+  }
+  
+  header #nav-bar ul{
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 500px){
+
+}
